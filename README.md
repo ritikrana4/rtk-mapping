@@ -1,4 +1,4 @@
-# RTK Mapper Component
+# RTK Mapping Component
 
 A flexible React TypeScript component for creating channel mappings with searchable dropdowns, dynamic row management, and full mobile responsiveness.
 
