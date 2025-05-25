@@ -17,13 +17,13 @@ A flexible React TypeScript component for creating channel mappings with searcha
 
 ## 🎥 Demo
 
-[Live Demo](https://channel-mapper-demo.vercel.app) 
+[Live Demo](https://codesandbox.io/p/sandbox/ggd4hv) 
 
 ## 📦 Installation
 
 ```bash
 # Using npm
-npm install @rtk/mapper
+npm install @rtkstack/mapper
 
 ```
 
@@ -31,7 +31,7 @@ npm install @rtk/mapper
 
 ```tsx
 import React, { useState } from 'react';
-import { RTKMapper } from '@rtk/mapper';
+import { RTKMapper } from '@rtkstack/mapper';
 
 function App() {
   const [mappings, setMappings] = useState<Record<string, string>>({});
