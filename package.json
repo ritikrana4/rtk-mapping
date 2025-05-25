@@ -1,6 +1,6 @@
 {
   "name": "@rtkstack/mapper",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "A flexible React TypeScript component for creating mappings with searchable dropdowns, dynamic row management, and full mobile responsiveness",
   "main": "dist/index.js",
   "module": "dist/index.esm.js",
