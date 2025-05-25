@@ -23,9 +23,10 @@
   "homepage": "https://github.com/ritikrana4/rtk-mapping",
   "keywords": [
     "react",
-    "rtk-mapper",
-    "mapping-component",
-    "source-destination",
+    "rtkstack/mapper",
+    "mapping component",
+    "source destination mapping",
+    "ritik rana",
     "dropdown",
     "searchable",
     "select"
