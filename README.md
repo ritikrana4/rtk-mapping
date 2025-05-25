@@ -1,20 +1,6 @@
-# Channel Mapper Component
+# RTK Mapper Component
 
 A flexible React TypeScript component for creating channel mappings with searchable dropdowns, dynamic row management, and full mobile responsiveness.
-
-## 📋 Table of Contents
-
-- [Features](#-features)
-- [Demo](#-demo)
-- [Installation](#-installation)
-- [Quick Start](#-quick-start)
-- [API Reference](#-api-reference)
-- [Examples](#-examples)
-- [Styling](#-styling)
-- [Mobile Responsiveness](#-mobile-responsiveness)
-- [Development](#-development)
-- [Contributing](#-contributing)
-- [License](#-license)
 
 ## ✨ Features
 
@@ -280,12 +266,6 @@ The component uses CSS classes that you can target:
 .rtk-mapper-header { }
 .rtk-mapper-row { }
 ```
-
-## 👨‍💻 Author
-
-**Ritik Rana**
-- GitHub: [@ritikrana](https://github.com/ritikrana4/rtk-mapping)
-- npm: [@ritikrana](https://www.npmjs.com/~ritikrana)
 
 <p align="center">
   Made with ❤️ by Ritik Rana
