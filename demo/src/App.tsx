@@ -19,17 +19,17 @@ function App() {
   };
 
   const initialMappings = {
-    'Channel A': 'Channel 1',
-    'Channel B': 'Channel 3',
+    'value A': 'value 1',
+    'value B': 'value 3',
   };
 
   return (
     <div style={{ padding: '20px', backgroundColor: '#f0f0f0', minHeight: '100vh' }}>
-      <h1>Channel Mapper Component Demo</h1>
+      <h1>value Mapper Component Demo</h1>
       
       <RTKMapper
-        sourceOptions={['Channel A', 'Channel B', 'Channel C', 'Channel D', 'Channel E']}
-        targetOptions={['Channel 1', 'Channel 2', 'Channel 3', 'Channel 4', 'Channel 5']}
+        sourceOptions={['value A', 'value B', 'value C', 'value D', 'value E']}
+        targetOptions={['value 1', 'value 2', 'value 3', 'value 4', 'value 5']}
         initialMappings={initialMappings}
         minRows={1}
         maxRows={8}

@@ -1,6 +1,6 @@
 # RTK Mapping Component
 
-A flexible React TypeScript component for creating channel mappings with searchable dropdowns, dynamic row management, and full mobile responsiveness.
+A flexible React TypeScript component for creating mappings with searchable dropdowns, dynamic row management, and full mobile responsiveness.
 
 ## ✨ Features
 
@@ -39,8 +39,8 @@ function App() {
   return (
     <div>
       <RTKMapper
-        sourceOptions={['Channel A', 'Channel B', 'Channel C']}
-        targetOptions={['Channel 1', 'Channel 2', 'Channel 3']}
+        sourceOptions={['value A', 'value B', 'value C']}
+        targetOptions={['value 1', 'value 2', 'value 3']}
         onChange={setMappings}
       />
       
@@ -56,8 +56,8 @@ function App() {
 
 | Prop | Type | Default | Description |
 |------|------|---------|-------------|
-| `sourceOptions` | `string[]` | `['Channel A', 'Channel B', 'Channel C', 'Channel D', 'Channel E']` | Array of source channel options |
-| `targetOptions` | `string[]` | `['Channel 1', 'Channel 2', 'Channel 3', 'Channel 4', 'Channel 5']` | Array of target channel options |
+| `sourceOptions` | `string[]` | `['value A', 'value B', 'value C', 'value D', 'value E']` | Array of source value options |
+| `targetOptions` | `string[]` | `['value 1', 'value 2', 'value 3', 'value 4', 'value 5']` | Array of target value options |
 | `initialMappings` | `Record<string, string>` | `{}` | Initial mapping configuration |
 | `minRows` | `number \| undefined` | `undefined` | Minimum number of mapping rows. If undefined, users can delete all rows |
 | `maxRows` | `number \| undefined` | `undefined` | Maximum number of mapping rows. If undefined, unlimited rows allowed |
@@ -121,8 +121,8 @@ interface ClassNamesConfig {
 
 ```tsx
 const initialMappings = {
-  'Channel A': 'Channel 1',
-  'Channel B': 'Channel 3'
+  'value A': 'value 1',
+  'value B': 'value 3'
 };
 
 <RTKMapper

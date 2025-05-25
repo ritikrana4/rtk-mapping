@@ -6,7 +6,7 @@ export default defineConfig({
   plugins: [react()],
   resolve: {
     alias: {
-      'channel-mapper': path.resolve(__dirname, '../src'),
+      'mapper': path.resolve(__dirname, '../src'),
     },
   },
 });
