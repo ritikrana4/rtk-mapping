@@ -1,0 +1,30 @@
+# Source files
+src/
+demo/
+
+# Config files
+rollup.config.js
+tsconfig.json
+vite.config.ts
+
+# Development files
+.git/
+.gitignore
+.vscode/
+.idea/
+*.log
+node_modules/
+
+# Build files
+*.tgz
+
+# Documentation source
+docs/
+examples/
+
+# Test files
+__tests__/
+*.test.ts
+*.test.tsx
+*.spec.ts
+*.spec.tsx
